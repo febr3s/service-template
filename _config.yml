@@ -26,6 +26,8 @@ description1: >- # this means to ignore newlines until "baseurl:"
   Your pace. Your route. An expert at your side.
 description2: >- # this means to ignore newlines until "baseurl:"
   Small, personalized groups — built to go deep, not wide
+argument1: "No flag. No script. Just a walking conversation — the Jane Jacobs Walk method: walk, observe, connect."
+argument2: "Cities don't talk to crowds. They talk to the few who move slowly and ask questions. That's how you get inside."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
