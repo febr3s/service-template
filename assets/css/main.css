@@ -166,7 +166,8 @@ button, input { font: inherit; color: inherit; }
 @media (min-width: 780px) { .hero__lead { margin-left: 0; max-width: 20rem; } }
 
 .hero__actions { display: flex; flex-direction: column; gap: .875rem; align-items: center; }
-@media (min-width: 640px) { .hero__actions { flex-direction: row; justify-content: center; } }
+@media (min-width: 640px) { .hero__actions { flex-direction: row;  } }
+/*@media (min-width: 640px) { .hero__actions { flex-direction: row; justify-content: center; } }*/
 @media (min-width: 1024px) { .hero__actions { justify-content: flex-start; } }
 
 .hero__trust {
