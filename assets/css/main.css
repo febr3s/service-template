@@ -161,8 +161,9 @@ button, input { font: inherit; color: inherit; }
   background: linear-gradient(90deg, var(--blue), var(--purple), var(--magenta));
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
-.hero__lead { color: var(--s600); font-size: 1.05rem; max-width: 36rem; margin: 0 auto; }
-@media (min-width: 1024px) { .hero__lead { margin-left: 0; } }
+/* .hero__lead { color: var(--s600); font-size: 1.05rem; max-width: 36rem; margin: 0 auto; }*/
+.hero__lead { color: var(--s600); font-size: 1.05rem; max-width: 50rem; }
+@media (min-width: 780px) { .hero__lead { margin-left: 0; max-width: 20rem; } }
 
 .hero__actions { display: flex; flex-direction: column; gap: .875rem; align-items: center; }
 @media (min-width: 640px) { .hero__actions { flex-direction: row; justify-content: center; } }
