@@ -48,8 +48,8 @@ button, input { font: inherit; color: inherit; }
 
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
-  padding: .85rem 1.75rem; border-radius: var(--r-full);
-  font-weight: 600; font-size: .95rem; border: 1px solid transparent;
+  padding: .70rem 1.50rem; border-radius: var(--r-full);
+  font-weight: 400; font-size: .90rem; border: 1px solid transparent;
   cursor: pointer; transition: transform .15s, background .2s, color .2s, box-shadow .2s;
   text-align: center;
 }
