@@ -186,7 +186,7 @@ button, input { font: inherit; color: inherit; }
 
 /* ---------- Phone mockup (shared) ---------- */
 .phone-wrap { display: flex; justify-content: center; background-color: aquamarine; margin-top: 15%;}
-@media (min-width: 780px) { .phone-wrap { margin-top: -15rem;margin-left: -6rem; } }
+@media (min-width: 780px) { .phone-wrap { margin-left: -6rem; } }
 
 .phone {
   width: 100%; max-width: 360px;
