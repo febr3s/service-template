@@ -186,7 +186,7 @@ button, input { font: inherit; color: inherit; }
 
 /* ---------- Phone mockup (shared) ---------- */
 .phone-wrap { display: flex; justify-content: center; background-color: aquamarine; margin-top: 15%;}
-@media (min-width: 780px) { .phone-wrap { margin-top: -15rem;margin-left: -6rem; } }
+@media (min-width: 780px) { .phone-wrap { margin-left: -6rem; } }
 
 .phone {
   width: 100%; max-width: 360px;
@@ -351,7 +351,7 @@ button, input { font: inherit; color: inherit; }
 .quick-reply--muted:hover { background: var(--s200); color: var(--s900); }
 
 /* ---------- How it works ---------- */
-.steps { display: grid; gap: 2rem; }
+.steps { display: grid; gap: 2rem; grid-template-columns: repeat(2, 1fr);}
 @media (min-width: 768px) { .steps { grid-template-columns: repeat(3, 1fr); } }
 .step {
   background: #fff; border: 1px solid var(--s200); border-radius: var(--r-xl);
