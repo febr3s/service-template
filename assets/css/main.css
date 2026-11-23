@@ -185,7 +185,7 @@ button, input { font: inherit; color: inherit; }
 .hero__trust .ok::before { content: '✓'; color: var(--green); font-weight: 700; }
 
 /* ---------- Phone mockup (shared) ---------- */
-.phone-wrap { display: flex; justify-content: center; }
+.phone-wrap { display: flex; justify-content: center; background-color: aquamarine; margin-top: 15%;}
 @media (min-width: 780px) { .phone-wrap { margin-top: -15rem;margin-left: -6rem; } }
 
 .phone {
@@ -193,6 +193,7 @@ button, input { font: inherit; color: inherit; }
   background: var(--s950); border: 4px solid var(--s800);
   border-radius: 2.8rem; padding: .75rem; box-shadow: var(--sh-phone);
   position: relative;
+  margin-top: -15%;
 }
 .phone__notch { width: 7rem; height: 1.25rem; background: var(--s950); border-radius: 9999px; margin: 0 auto .25rem; }
 .phone__screen {
