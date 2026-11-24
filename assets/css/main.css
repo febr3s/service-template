@@ -74,13 +74,13 @@ button, input { font: inherit; color: inherit; }
 .chip--glass { background: rgba(255,255,255,.1); color: #93c5fd; border: 1px solid rgba(255,255,255,.1); }
 
 .section { padding: 5rem 0; }
-.section--soft { background: var(--bg-soft); border-top: 1px solid var(--s200); border-bottom: 1px solid var(--s200); }
+/*.section--soft { background: var(--bg-soft); border-top: 1px solid var(--s200); border-bottom: 1px solid var(--s200); }*/
 .section--tight { padding: 3rem 0; }
 @media (min-width: 1024px) { .section { padding: 7rem 0; } }
 
 .eyebrow { display: block; text-align: center; margin-bottom: .75rem; }
 .h2 { font-family: var(--display); font-weight: 800; font-size: clamp(1.9rem, 4vw, 3rem); line-height: 1.1; letter-spacing: -.02em; color: var(--s950); text-align: center; }
-.lead { color: var(--s600); font-size: 1.05rem; text-align: center; margin-top: 1rem; }
+.lead { color: var(--s600); font-size: 1.05rem; text-align: center; margin-top: 2rem; }
 
 /* ---------- Header ---------- */
 .site-header {
@@ -185,7 +185,7 @@ button, input { font: inherit; color: inherit; }
 .hero__trust .ok::before { content: '✓'; color: var(--green); font-weight: 700; }
 
 /* ---------- Phone mockup (shared) ---------- */
-.phone-wrap { display: flex; justify-content: center; background-color: aquamarine; margin-top: 15%;}
+.phone-wrap { display: flex; justify-content: center; background-color: aquamarine; margin-top: 10%;}
 @media (min-width: 780px) { .phone-wrap { margin-left: -6rem; } }
 
 .phone {
@@ -350,6 +350,10 @@ button, input { font: inherit; color: inherit; }
 .quick-reply--muted { border-color: var(--s200); color: var(--s700); background: var(--s100); }
 .quick-reply--muted:hover { background: var(--s200); color: var(--s900); }
 
+:nth-child(1 of #funciones) { padding-bottom: 2rem; }
+
+:nth-child(2 of #funciones) { padding-top: 0; }
+
 /* ---------- How it works ---------- */
 .steps { display: grid; gap: 2rem; grid-template-columns: repeat(2, 1fr);}
 @media (min-width: 768px) { .steps { grid-template-columns: repeat(3, 1fr); } }
@@ -404,6 +408,8 @@ button, input { font: inherit; color: inherit; }
 .testimonial__avatar--amber { background: linear-gradient(135deg, #f59e0b, #ec4899); }
 .testimonial__author strong { display: block; font-size: .9rem; color: var(--s950); }
 .testimonial__author small { font-size: .75rem; color: var(--s500); }
+
+#casos-exito { padding-top: 0; }
 
 /* ---------- FAQ ---------- */
 .faq { max-width: 48rem; margin: 0 auto; display: flex; flex-direction: column; gap: .875rem; }
