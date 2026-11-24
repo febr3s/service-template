@@ -7,6 +7,16 @@
     </div> -->
 
     <div class="steps">
+      {% for pack in site.packages %}
+      <div class="step">
+        <div>
+          <img src="{{ pack.img }}" alt="{{ pack.title }}">
+        </div>
+        <h3>{{ pack.title }}</h3>
+        <p>{{ pack.short-desc }}</p>
+        <div class="step__foot step__foot--blue"><span>{{ pack.link-text }}</span><span>→</span></div>
+      </div>
+      {% endfor %}
       <div class="step">
         <div>
           <img src="https://cdn.prod.website-files.com/68e8cfb1ceca15023589ca9f/6a95b61b923df0a595f028dc_14fb8f8b7f9cd177aee3916f40621993_slide-1-1-2-es-p-500.webp">
