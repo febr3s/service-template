@@ -282,6 +282,10 @@ button, input { font: inherit; color: inherit; }
 
 .container#footer { padding: 0; }
 
+.cta-banner .hero__title {
+  font-size: calc(100vw / 5.2);
+}
+
 /* ---------- Social proof ---------- */
 .stats { display: grid; gap: 2rem; text-align: center; }
 @media (min-width: 768px) { .stats { grid-template-columns: repeat(3, 1fr); } }
