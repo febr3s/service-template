@@ -355,11 +355,14 @@ button, input { font: inherit; color: inherit; }
 :nth-child(2 of #funciones) { padding-top: 0; }
 
 /* ---------- How it works ---------- */
-.steps { display: grid; gap: 2rem; grid-template-columns: repeat(2, 1fr);}
+#como-funciona .container {padding: 0;}
+
+.steps { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr);}
 @media (min-width: 768px) { .steps { grid-template-columns: repeat(3, 1fr); } }
 .step {
-  background: #fff; border: 1px solid var(--s200); border-radius: var(--r-xl);
-  padding: 2rem; box-shadow: var(--sh-lg);
+  /*background: #fff; border: 1px solid var(--s200); 
+  border-radius: var(--r-xl);
+  padding: 2rem; box-shadow: var(--sh-lg);*/
   transition: transform .2s;
 }
 .step:hover { transform: translateY(-4px); }
