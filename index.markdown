@@ -10,4 +10,3 @@ title: "Course Creators"
 {% include how-it-works.html %}
 {% include testimonials.html %}
 {% include faq.html %}
-{% include cta.html %}
