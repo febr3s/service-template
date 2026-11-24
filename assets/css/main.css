@@ -48,12 +48,12 @@ button, input { font: inherit; color: inherit; }
 
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
-  padding: .70rem 1.50rem; border-radius: var(--r-full);
+  padding: .50rem 1.20rem; border-radius: var(--r-full);
   font-weight: 400; font-size: .90rem; border: 1px solid transparent;
   cursor: pointer; transition: transform .15s, background .2s, color .2s, box-shadow .2s;
   text-align: center;
 }
-.btn--primary { background: var(--blue); color: #fff; box-shadow: var(--sh-glow); }
+.btn--primary { background: var(--blue); font-variant: small-caps; color: #fff; box-shadow: var(--sh-glow); }
 .btn--primary:hover { background: var(--blue-dark); transform: translateY(-1px); }
 .btn--secondary { background: #fff; color: var(--s800); border-color: var(--s200); box-shadow: var(--sh-sm); }
 .btn--secondary:hover { background: var(--s50); }
@@ -134,7 +134,7 @@ button, input { font: inherit; color: inherit; }
 /* ---------- Hero ---------- */
 .hero {
   position: relative; overflow: hidden;
-  padding: 3rem 0 5rem;
+  padding: 2rem 0 5rem;
   background: linear-gradient(to bottom, #fff, rgba(248,250,252,.7), #fff);
 }
 @media (min-width: 1024px) { .hero { padding: 4rem 0 7rem; } }
@@ -153,7 +153,7 @@ button, input { font: inherit; color: inherit; }
 @media (min-width: 1024px) { .hero__copy { text-align: left; } }
 .hero__title {
   font-family: var(--display); font-weight: 900;
-  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  font-size: clamp(2.25rem, 8vw, 6rem);
   line-height: 1.1; letter-spacing: -.02em; color: var(--s950);
 }
 .hero__title em {
